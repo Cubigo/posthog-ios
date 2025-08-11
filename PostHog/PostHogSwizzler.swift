@@ -8,6 +8,7 @@
 import Foundation
 
 func swizzle(forClass: AnyClass, original: Selector, new: Selector) {
+    return // swizzling disabled within Cubigo apps
     guard let originalMethod = class_getInstanceMethod(forClass, original) else { return }
     guard let swizzledMethod = class_getInstanceMethod(forClass, new) else { return }
     method_exchangeImplementations(originalMethod, swizzledMethod)
