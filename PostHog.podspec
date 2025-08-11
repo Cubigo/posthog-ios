@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "PostHog"
+  s.name             = "CBGPostHog"
   s.version          = "3.30.0"
   s.summary          = "The hassle-free way to add posthog to your iOS app."
 
@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
 
   s.homepage         = "http://posthog.com/"
   s.license          =  { :type => 'MIT' }
-  s.author           = { "PostHog" => "engineering@posthog.com" }
-  s.source           = { :git => "https://github.com/PostHog/posthog-ios.git", :tag => s.version.to_s }
+  s.author           = { "CBGPostHog" => "kbex@cubigo.com" }
+  s.source           = { :git => "https://github.com/Cubigo/posthog-ios.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/PostHog'
   s.readme           = "https://raw.githubusercontent.com/PostHog/posthog-ios/#{s.version.to_s}/README.md"
   s.changelog        = "https://raw.githubusercontent.com/PostHog/posthog-ios/#{s.version.to_s}/CHANGELOG.md"
